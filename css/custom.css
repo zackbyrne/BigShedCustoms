@@ -1,0 +1,801 @@
+/*HOME PAGE SETTINGS START*/
+.over-lord{
+	height: 400%;
+	width: 100%;
+}
+
+body{
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+/*"PAGE WIDTH" DIV SETTINGS START*/
+.page-width{
+	width: 70vw;
+	height: 100vh;
+	min-height: 100% !important;
+	/*border: 1px solid black;*/
+	align-self: center;
+	position: relative;
+	margin-left: 15%;
+	background-color: #474643;
+
+}
+/*PAGE WIDTH SETTINGS END*/
+
+/*TOP DIV SETTINGS START THIS IS LOGO SOCIALS AND NAV*/
+.top-div-home{
+	/*border: 1px solid black;*/
+	position: relative;
+	width: 100%;
+	height: 8%;
+	background-color: #222020
+}
+
+.logo-top{
+	width: 300px;
+	height: 150px;
+	margin-left: 10%;
+	margin-top: 0.4%;
+}
+
+.social-parent{
+	float: right;
+	margin-right: 15%;
+}
+
+.facebook-image, .youtube-image, .gmail-image{
+	width: 90px;
+	height: 90px;
+	padding: 10px;
+}
+
+.gmail-image{
+	height: 80px;
+	width: 80px;
+}
+
+.youtube-container, .facebook-container{
+	position: relative;
+	float: right;
+	display: inline-block;
+}
+
+.page-links{
+	font-family: 'Bebas Neue', cursive;
+	list-style: none;
+	overflow: hidden;
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	text-align: center;
+	font-size: 35px;
+	margin-left: 390px;
+}
+
+li{
+	display: inline;
+	cursor: pointer;
+	color: white;
+	padding: 25px;
+	overflow: hidden;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+/*TOP DIV SETTINGS END*/
+
+/*BANNER IMAGE DIV SETTINGS START*/
+.banner-div-home{
+	position: relative;
+	width: 100%;
+	height: 30%;
+	background-color: #222020
+}
+
+.banner-image{
+	height: 100%;
+	width: 70%;
+	margin-left: 15%;
+}
+/*BANNER DIV SETTINGS END*/
+
+/*FIRST CONTENT BLOCK SETTINGS START*/
+.content-image-container{
+	float: right;
+	width: 40%;
+	height: 20%;
+	/*border: 1px solid red;*/
+	margin-right: 15%;
+	margin-top: 0.001%;
+}
+
+.mustang-image{
+	width: 100%;
+	height:100%;
+}
+
+.content-text-container{
+	/*border: 1px solid red;*/
+	color: white;
+	width: 25%;
+	margin-left: 15%;
+	margin-top: 2.5%;
+}
+
+.content-text{
+	font-size: 20px; 
+	font-family: 'Hind', sans-serif;
+}
+
+.content-header{
+	font-size: 30px;
+	font-family: 'Bebas Neue', cursive;
+}
+/*FIRST CONTENT SETTINGS END*/
+
+/*SECOND BLOCK OFCONTENT SETTINGS START*/
+.second-content-parent{
+	position: relative;
+	width: 100%;
+	height: 24%;
+	/*border: 1px solid red;*/
+	margin-top: 5%;
+}
+
+.second-content-child{
+	/*border: 1px solid red;*/
+	width: 23.3%;
+	margin: 0 auto;
+	float: left;
+	margin-left: 15%;
+}
+
+.second-content-child-two{
+	/*border: 1px solid red;*/
+	width: 23.3%;
+	float: right;
+	margin-right: 7%;
+}
+
+.second-content-child-three{
+	/*border: 1px solid red;*/
+	width: 23.3%;
+	/*display: inline;*/
+	position: absolute;
+	left: 41.8%;
+}
+
+.child-content-two-header, .child-content-one-header, .child-content-three-header{
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 30px;
+}
+
+.child-content-three-para, .child-content-two-para, .child-content-one-para{
+	font-family: 'Hind', sans-serif;
+	color: white;
+	width: 70%;
+}
+/*SECOND BLOCK SETTINGS END*/
+
+/*FOOTER SETTINGS START*/
+.footer{
+	height: 4%;
+	background-color: #222020;
+	position: relative;
+	margin-top: 0.5%;
+}
+
+.copyright-container{
+	position: absolute;
+	left: 15%;
+}
+
+.phone-container{
+	float: right;
+	margin-right: 15%;
+}
+
+.copyright-and-design-cred{
+	color: white;
+	font-family: 'Hind', sans-serif;
+}
+
+.phone-number{
+	color: white;
+	font-family: 'Hind', sans-serif;
+}
+/*FOOTER SETTINGS END*/
+
+/*****ABOUT PAGE SETTINGS START*****/
+.content-text-about{
+	font-size: 18px;
+	font-family: 'Hind', sans-serif;
+}
+
+.content-text-container-about{
+	color: white;
+	width: 35%;
+	margin-left: 15%;
+	margin-top: 2.5%;
+}
+
+.content-image-container-about{
+	float: right;
+	width: 25%;
+	height: 10%;
+	/*border: 1px solid red;*/
+	margin-right: 20%;
+	margin-top: 0%;
+}
+
+.mustang-caption{
+	color: white;
+	font-family: 'Hind', sans-serif;
+	text-align: center;
+}
+
+.footer-about{
+	height: 5%;
+	background-color: #222020;
+	position: relative;
+	margin-top: 145px;
+}
+/*ABOUT PAGE SETTINGS END*/
+
+/*SERVICES SETTINGS START*/
+
+.banner-div-services{
+	position: relative;
+	width: 100%;
+	height: 30%;
+	background-color: #222020
+}
+
+.banner-image-services{
+	height: 100%;
+	width: 50%;
+	margin-left: 25%;
+}
+
+.service-pic-parent{
+	position: relative;
+	height: 25%;
+}
+
+.services-pic-child-one{
+	float: right;
+	margin-right: 25%;
+	margin-top: 2%;
+}
+
+.vw-bug{
+	width: 350px;
+	height: 250px;
+}
+
+.services-pic-child-two{
+	display: inline;
+	margin-left: 25%;
+	position: absolute;
+	top: 73.25%;
+}
+
+.hot-rod{
+	width: 350px;
+	height: 250px;
+}
+
+.content-text-services{
+	font-size: 18px;
+	font-family: 'Hind', sans-serif;
+}
+
+.content-text-container-services{
+	color: white;
+	width: 25%;
+	margin-left: 25%;
+	margin-top: 2.5%;
+}
+
+.content-header-services{
+	font-size: 30px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.image-services{
+	width: 80%;
+	height:100%;
+}
+
+.content-image-container-services{
+	float: right;
+	width: 25%;
+	height: 10%;
+	/*border: 1px solid red;*/
+	margin-right: 19%;
+	margin-top: 2.5%;
+}
+
+.footer-services{
+	height: 5%;
+	background-color: #222020;
+	position: relative;
+	margin-top: 350px;
+}
+
+/*CONTACT PAGE SETTINGS START*/
+
+.contact-form-container{
+	font-family: 'Bebas Neue', cursive;
+	box-sizing: border-box;
+	width: 30%;
+	margin-left: 15%;
+	margin-top: 2%;
+	color: white;
+}
+
+input[type=text], select, textarea{
+	width: 100%;
+	padding: 8px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	padding: 12px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+.content-map-contact{
+	float: right;
+	width: 25%;
+	height: 10%;
+	/*border: 1px solid red;*/
+	margin-right: 20%;
+	margin-top: 1.4%;
+}
+
+.google-map{
+	width: 550px;
+	height: 300px;
+}
+
+.contact-info{
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 20px;
+
+}
+
+.footer-contact{
+	height: 5%;
+	background-color: #222020;
+	position: relative;
+	margin-top: 195px;
+}
+
+.banner-div-contact{
+	position: relative;
+	width: 100%;
+	height: 30%;
+	background-color: #222020
+}
+
+.banner-image-contact{
+	height: 100%;
+	width: 50%;
+	margin-left: 25%;
+}
+/*CONTACT PAGE END*/
+
+/*HOME PAGE SETTINGS MEDIA START*/
+@media only screen and (max-width: 1024px){
+	.over-lord{
+	height: 400%;
+	width: 100%;
+}
+
+body{
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.page-width{
+	width: 80vw;
+	height: 100vh;
+	min-height: 100% !important;
+	/*border: 1px solid black;*/
+	align-self: center;
+	position: relative;
+	margin-left: 10%;
+	background-color: #474643;
+}
+
+/*TOP DIV SETTINGS MEDIA START*/
+
+.top-div-home{
+	/*border: 1px solid black;*/
+	position: relative;
+	width: 100%;
+	height: 5%;
+	background-color: #222020
+}
+
+.logo-top{
+	width: 200px;
+	height: 100px;
+	margin-left: 1%;
+	margin-top: 0.4%;
+}
+
+.social-parent{
+	float: right;
+	margin-right: 0%;
+}
+
+.facebook-image, .youtube-image, .gmail-image{
+	width: 50px;
+	height: 50px;
+	padding: 10px;
+}
+
+.gmail-image{
+	height: 40px;
+	width: 40px;
+	margin-bottom: 2.5px;
+}
+
+.youtube-container, .facebook-container{
+	position: relative;
+	float: right;
+	display: inline-block;
+}
+
+.page-links{
+	font-family: 'Bebas Neue', cursive;
+	list-style: none;
+	overflow: hidden;
+	margin:0;
+	padding: 0;
+	text-decoration: none;
+	text-align: center;
+	font-size: 22px;
+	margin-left: 170px;
+}
+
+li{
+	display: inline;
+	cursor: pointer;
+	color: white;
+	padding: 25px;
+	overflow: hidden;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+/*TOP DIV SETTINGS END*/
+
+/*BANNER SETTINGS START*/
+.banner-div-home{
+	position: relative;
+	width: 100%;
+	height: 20%;
+	background-color: #222020
+}
+/*BANNER SETTINGS END*/
+
+/*FIRST BLOCK SETTINGS START*/
+
+.content-image-container{
+	float: right;
+	width: 40%;
+	height: 20%;
+	/*border: 1px solid red;*/
+	margin-right: 15%;
+	margin-top: 10%;
+}
+
+.mustang-image{
+	width: 100%;
+	height:100%;
+}
+
+.content-text-container{
+	/*border: 1px solid red;*/
+	color: white;
+	width: 25%;
+	margin-left: 15%;
+	margin-top: 2.5%;
+}
+
+.content-text{
+	font-size: 15px; 
+	font-family: 'Hind', sans-serif;
+}
+
+.content-header{
+	font-size: 25px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+/*SECOND BLOCK OFCONTENT SETTINGS START*/
+.second-content-parent{
+	position: relative;
+	width: 100%;
+	height: 24%;
+	/*border: 1px solid red;*/
+	margin-top: 5%;
+}
+
+.second-content-child{
+	/*border: 1px solid red;*/
+	width: 15%;
+	margin: 0 auto;
+	float: left;
+	margin-left: 15%;
+}
+
+.second-content-child-two{
+	/*border: 1px solid red;*/
+	width: 15%;
+	float: right;
+	margin-right: 22%;
+}
+
+.second-content-child-three{
+	/*border: 1px solid red;*/
+	width: 15%;
+	/*display: inline;*/
+	position: absolute;
+	left: 39%;
+}
+
+.child-content-two-header, .child-content-one-header, .child-content-three-header{
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 20px;
+}
+
+.child-content-three-para, .child-content-two-para, .child-content-one-para{
+	font-family: 'Hind', sans-serif;
+	color: white;
+	width: 110%;
+}
+
+.silver-boi{
+	width: 170px;
+	height: 100px;
+}
+
+.orange-boi{
+	width: 170px;
+	height: 100px;
+}
+
+.hellcat{
+	width: 170px;
+	height: 100px;
+}
+/*SECOND BLOCK SETTINGS END*/
+
+/*FOOTER SETTINGS START*/
+.footer{
+	height: 4%;
+	background-color: #222020;
+	position: relative;
+	margin-top: 25%;
+}
+
+.copyright-container{
+	position: absolute;
+	left: 15%;
+}
+
+.phone-container{
+	float: right;
+	margin-right: 15%;
+}
+
+.copyright-and-design-cred{
+	color: white;
+	font-family: 'Hind', sans-serif;
+	font-size: 15px;
+}
+
+.phone-number{
+	color: white;
+	font-family: 'Hind', sans-serif;
+	font-size: 15px;
+}
+/*FOOTER SETTINGS END*/
+/*HOMEPAGE MEDIA END*/
+
+/*ABOUT PAGE SETTINGS START*/
+
+.content-text-about{
+	font-size: 13px;
+	font-family: 'Hind', sans-serif;
+}
+
+.content-image-container-about{
+	float: right;
+	width: 30%;
+	height: 10%;
+	/*border: 1px solid red;*/
+	margin-right: 15%;
+	margin-top: 10%;
+}
+
+.footer-about{
+	height: 5%;
+	background-color: #222020;
+	position: relative;
+	margin-top: 300px;
+}
+/*ABOUT PAGE SETTINGS END*/
+
+/*SERVICES SETTINGS START*/
+
+.banner-div-services{
+	position: relative;
+	width: 100%;
+	height: 25%;
+	background-color: #222020
+}
+
+.banner-image-services{
+	height: 100%;
+	width: 70%;
+	margin-left: 15%;
+}
+
+.service-pic-parent{
+	position: relative;
+	height: 25%;
+}
+
+.services-pic-child-one{
+	float: right;
+	margin-right: 15%;
+	margin-top: 10%;
+}
+
+.vw-bug{
+	width: 250px;
+	height: 150px;
+}
+
+.services-pic-child-two{
+	display: inline;
+	margin-left: 15%;
+	position: absolute;
+	top: 65%;
+}
+
+.hot-rod{
+	width: 250px;
+	height: 150px;
+}
+
+.content-text-services{
+	font-size: 15px;
+	font-family: 'Hind', sans-serif;
+}
+
+.content-text-container-services{
+	color: white;
+	width: 35%;
+	margin-left: 15%;
+	margin-top: 2.5%;
+}
+
+.content-header-services{
+	font-size: 30px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+.image-services{
+	width: 80%;
+	height:100%;
+}
+
+.content-image-container-services{
+	float: right;
+	width: 40%;
+	height: 25%;
+	/*border: 1px solid red;*/
+	margin-right: 5%;
+	margin-top: 8%;
+}
+
+.footer-services{
+	height: 5%;
+	background-color: #222020;
+	position: relative;
+	margin-top: 507px;
+}
+
+/*CONTACT PAGE SETTINGS START*/
+.contact-form-container{
+	font-family: 'Bebas Neue', cursive;
+	box-sizing: border-box;
+	width: 30%;
+	margin-left: 15%;
+	margin-top: 2%;
+	color: white;
+}
+
+input[type=text], select, textarea{
+	width: 100%;
+	padding: 8px;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 6px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	padding: 12px 20px;
+  	border: none;
+  	border-radius: 4px;
+  	cursor: pointer;
+}
+
+.content-map-contact{
+	float: right;
+	width: 25%;
+	height: 10%;
+	/*border: 1px solid red;*/
+	margin-right: 20.5%;
+	margin-top: 1.4%;
+}
+
+.google-map{
+	width: 250px;
+	height: 350px;
+}
+
+.contact-info{
+	font-family: 'Bebas Neue', cursive;
+	color: white;
+	font-size: 20px;
+
+}
+
+.footer-contact{
+	height: 5%;
+	background-color: #222020;
+	position: relative;
+	margin-top: 355px;
+}
+
+.banner-div-contact{
+	position: relative;
+	width: 100%;
+	height: 25%;
+	background-color: #222020
+}
+
+.banner-image-contact{
+	height: 100%;
+	width: 70%;
+	margin-left: 15%;
+}
+
+}
+
+
+
+
